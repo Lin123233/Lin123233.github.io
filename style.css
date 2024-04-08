@@ -1,0 +1,93 @@
+@font-face{
+    font-family: 'siyuan';
+    src: url('./font/SourceHanSansCN-VF-2.otf');
+}
+
+*{
+    font-family: "siyuan";
+}
+
+body{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background: url("./背景.webp") 100vw 100vh;
+    background-position-x: -300px;
+    backdrop-filter: blur(5px);
+}
+
+#head{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #28282e;
+}
+
+#hello{
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#enter, .click{
+    width: 90px;
+    height: 35px;
+    background-color: #ffaf4e;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    line-height: 35px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+/*光标样式*/
+#head span:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+#enter:hover{
+    cursor: pointer;
+}
+
+.card{
+    margin-top: 90px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.card p{
+    margin: 0px;
+    line-height: 30px;
+}
+
+.head-line{
+    font-size: 23px;
+    text-shadow: 0.5px 0.5px grey;
+    margin-bottom: 10px;
+}
+
+#support{
+    top: 10px;
+    background-color: #a9ee62;
+    color: #000000;
+    width: 90px;
+    position: relative;
+    margin: auto;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+#support:hover{
+    cursor: pointer;
+}
